@@ -1,16 +1,40 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Tailwind CSS dashboard** displaying **stocks** and **cryptocurrencies** with interactive charts and dark/light mode. Perfect for portfolio showcase.
 
-Currently, two official plugins are available:
+[Live Demo](https://interactive-f-inance-dashboard.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Default **dark theme** with toggle to light mode
+- Interactive **stock and crypto charts** (Recharts)
+- Two independent dropdowns for stock & crypto selection
+- **Stat cards** showing highs, lows, and latest prices
+- **Responsive design** for desktop and mobile
+- Clean, modern **glass-card UI** with hover effects
+- Environment variable management for secure API keys
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- Recharts
+- CoinGecko API (crypto)
+- Stock API (demo or Twelve Data)
+- Vercel (deployment)
+
+---
+
+## Installation (Local)
+
+```bash
+git clone https://github.com/Bhawana-999/Interactive-Finance-Dashboard.git
+cd Finance-Dashboard
+npm install
+cp .env.example .env
+# Fill in your API keys
+npm run dev
