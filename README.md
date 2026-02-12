@@ -1,6 +1,12 @@
+
+![Vercel](https://img.shields.io/badge/deployed-on-vercel-000?style=for-the-badge&logo=vercel)
+![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+
 # Finance Dashboard
 
-A modern **React + Tailwind CSS dashboard** displaying **stocks** and **cryptocurrencies** with interactive charts and dark/light mode. Perfect for portfolio showcase.
+A modern **React + Tailwind CSS dashboard** displaying **stocks** and **cryptocurrencies** with interactive charts and dark/light mode. 
 
 [Live Demo](https://interactive-f-inance-dashboard.vercel.app)
 
