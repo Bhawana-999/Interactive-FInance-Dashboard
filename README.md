@@ -40,6 +40,6 @@ A modern **React + Tailwind CSS dashboard** displaying **stocks** and **cryptocu
 git clone https://github.com/Bhawana-999/Interactive-Finance-Dashboard.git
 cd Interactive-Finance-Dashboard
 npm install
-cp .env.example .env
+copy .env.example to your .env
 # Fill in your API keys
 npm run dev
